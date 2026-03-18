@@ -514,15 +514,6 @@
       ]
     },
     {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/notifications/staffchat.png",
-      "ascent": 7,
-      "height": 7,
-      "chars": [
-        ""
-      ]
-    },
-    {
       "type": "reference",
       "id": "minecraft:include/space"
     },
