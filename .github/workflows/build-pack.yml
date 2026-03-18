@@ -1,0 +1,68 @@
+name: Build Resource Pack
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build deterministic ZIP
+        run: |
+          python3 -c "
+          import zipfile, os
+
+          zip_path = 'simplounge-pack.zip'
+          skip_dirs = {'.git', '.github'}
+          skip_ext = {'.psd'}
+
+          entries = []
+          for root, dirs, files in os.walk('.'):
+              dirs[:] = [d for d in dirs if d not in skip_dirs]
+              for f in files:
+                  if os.path.splitext(f)[1].lower() in skip_ext:
+                      continue
+                  full = os.path.join(root, f)
+                  arc = os.path.relpath(full, '.').replace(os.sep, '/')
+                  entries.append((arc, full))
+
+          entries.sort(key=lambda e: e[0])
+
+          with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zf:
+              for arc, full in entries:
+                  info = zipfile.ZipInfo(arc)
+                  info.date_time = (1980, 1, 1, 0, 0, 0)
+                  info.compress_type = zipfile.ZIP_DEFLATED
+                  with open(full, 'rb') as fh:
+                      zf.writestr(info, fh.read())
+
+          print(f'Packed {len(entries)} files into {zip_path}')
+          "
+
+      - name: Compute SHA1
+        run: |
+          sha1sum simplounge-pack.zip | cut -d' ' -f1 > sha1.txt
+          echo "SHA1: $(cat sha1.txt)"
+
+      - name: Delete existing latest release
+        run: |
+          gh release delete latest --yes 2>/dev/null || true
+          git push --delete origin latest 2>/dev/null || true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create release
+        run: |
+          gh release create latest \
+            --title "Latest Resource Pack" \
+            --notes "Auto-built from $(git rev-parse --short HEAD) on $(date -u +%Y-%m-%d)" \
+            simplounge-pack.zip \
+            sha1.txt
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

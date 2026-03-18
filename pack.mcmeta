@@ -1,0 +1,35 @@
+{
+  "pack": {
+    "pack_format": 75,
+    "description": [
+      "",
+      {
+        "text": "Custom Rank Pack",
+        "bold": true,
+        "color": "#E54040"
+      },
+      {
+        "text": " made for 1.21.x",
+        "color": "#E54040"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Created by",
+        "color": "#f7d200"
+      },
+      {
+        "text": " Your Name!",
+        "color": "#4068E5"
+      }
+    ],
+    "supported_formats": {
+      "min_inclusive": 15,
+      "max_inclusive": 75
+    }
+  },
+  "meta": {
+    "game_version": "1.21.11"
+  }
+}
