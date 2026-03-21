@@ -523,6 +523,18 @@
       ]
     },
     {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/ranks/ranktitles.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
       "type": "reference",
       "id": "minecraft:include/space"
     },
