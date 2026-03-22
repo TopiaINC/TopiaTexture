@@ -10,7 +10,7 @@
       "type": "bitmap",
       "file": "minecraft:simplounge/font/subscript_hud.png",
       "ascent": -23,
-      "height": 8,
+      "height": 7,
       "chars": [
         "\u2081\u2082\u2083\u2084\u2085\u2086\u2087\u2088\u2089\u2080.\u1D0B\u1D0D\u0299"
       ]
