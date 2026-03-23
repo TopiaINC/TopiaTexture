@@ -11,7 +11,7 @@
     {
       "type": "bitmap",
       "file": "minecraft:simplounge/font/coin_hud_backdrop.png",
-      "ascent": -23,
+      "ascent": -25,
       "height": 12,
       "chars": ["\uE800"]
     },
