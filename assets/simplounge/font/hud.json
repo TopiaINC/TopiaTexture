@@ -5,13 +5,13 @@
       "advances": {
         " ": 2,
         "\uE801": -45,
-        "\uE802": 120
+        "\uE802": 122
       }
     },
     {
       "type": "bitmap",
       "file": "minecraft:simplounge/font/coin_hud_backdrop.png",
-      "ascent": -25,
+      "ascent": -23,
       "height": 12,
       "chars": ["\uE800"]
     },
