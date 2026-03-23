@@ -4,14 +4,14 @@
       "type": "space",
       "advances": {
         " ": 4,
-        "\uE801": -48
+        "\uE801": -37
       }
     },
     {
       "type": "bitmap",
       "file": "minecraft:simplounge/font/coin_hud_backdrop.png",
-      "ascent": -21,
-      "height": 14,
+      "ascent": -22,
+      "height": 11,
       "chars": ["\uE800"]
     },
     {
