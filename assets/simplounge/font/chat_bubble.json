@@ -3,22 +3,22 @@
     {
       "type": "bitmap",
       "file": "minecraft:simplounge/font/bubble_small.png",
-      "ascent": 8,
-      "height": 11,
+      "ascent": 22,
+      "height": 30,
       "chars": ["\uE900"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:simplounge/font/bubble_medium.png",
-      "ascent": 8,
-      "height": 11,
+      "ascent": 22,
+      "height": 30,
       "chars": ["\uE901"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:simplounge/font/bubble_large.png",
-      "ascent": 8,
-      "height": 11,
+      "ascent": 22,
+      "height": 30,
       "chars": ["\uE902"]
     }
   ]
