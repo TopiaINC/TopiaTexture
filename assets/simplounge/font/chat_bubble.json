@@ -1,0 +1,17 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "\uE901": -116
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/font/chat_bubble.png",
+      "ascent": 16,
+      "height": 26,
+      "chars": ["\uE900"]
+    }
+  ]
+}
