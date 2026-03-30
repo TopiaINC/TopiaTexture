@@ -323,8 +323,8 @@
     {
       "type": "bitmap",
       "file": "minecraft:simplounge/images/exit_logo.png",
-      "ascent": 60,
-      "height": 120,
+      "ascent": 32,
+      "height": 90,
       "chars": [
         ""
       ]
@@ -333,7 +333,7 @@
       "type": "bitmap",
       "file": "minecraft:simplounge/images/exit_card.png",
       "ascent": -5,
-      "height": 100,
+      "height": 110,
       "chars": [
         ""
       ]
