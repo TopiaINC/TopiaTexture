@@ -1,6 +1,6 @@
 {
-  "menu.game": " ",
-  "menu.returnToGame": "",
+  "menu.game": "",
+  "menu.returnToGame": "Back to Simplounge",
   "menu.disconnect": "",
   "container.inventory": " "
 }

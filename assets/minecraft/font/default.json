@@ -1,559 +1,559 @@
-{
-  "providers": [
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/icons/coin.png",
-      "ascent": 10,
-      "height": 10,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/icons/error.png",
-      "ascent": 7,
-      "height": 7,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/icons/success.png",
-      "ascent": 7,
-      "height": 7,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/icons/warn.png",
-      "ascent": 7,
-      "height": 7,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/icons/voice-icon.png",
-      "ascent": 7,
-      "height": 7,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/icons/added.png",
-      "ascent": 7,
-      "height": 7,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/signs/spawnsign1.png",
-      "ascent": 40,
-      "height": 120,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/signs/spawnsign1.png",
-      "ascent": 350,
-      "height": 578,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/logo.png",
-      "ascent": 40,
-      "height": 120,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/logo.png",
-      "ascent": 20,
-      "height": 30,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/selector/games.png",
-      "ascent": 32,
-      "height": 80,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/overlay/black.png",
-      "ascent": 1200,
-      "height": 2048,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/selector/event.png",
-      "ascent": 40,
-      "height": 120,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/selector/spawn.png",
-      "ascent": 32,
-      "height": 80,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/selector/store.png",
-      "ascent": 32,
-      "height": 80,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/selector/game1.png",
-      "ascent": 32,
-      "height": 80,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/selector/game2.png",
-      "ascent": 32,
-      "height": 80,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/selector/game3.png",
-      "ascent": 32,
-      "height": 80,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/signs/lounge_sign.png",
-      "ascent": 40,
-      "height": 120,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/signs/market_sign.png",
-      "ascent": 40,
-      "height": 120,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/signs/sky_lounge_sign.png",
-      "ascent": 40,
-      "height": 120,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/signs/down_sign.png",
-      "ascent": 40,
-      "height": 120,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/selector/select.png",
-      "ascent": 32,
-      "height": 80,
-      "chars": [
-        "",
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/titles/banners.png",
-      "ascent": 7,
-      "height": 7,
-      "chars": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/titles/banner_color.png",
-      "ascent": 7,
-      "height": 7,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/titles/title_ico_tab.png",
-      "ascent": 7,
-      "height": 7,
-      "chars": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/notifications/announce_frame.png",
-      "ascent": 20,
-      "height": 40,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/notifications/notifications.png",
-      "ascent": 20,
-      "height": 40,
-      "chars": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/exit_screen.png",
-      "ascent": -111,
-      "height": 256,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/exit_logo.png",
-      "ascent": 113,
-      "height": 120,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/exit_card.png",
-      "ascent": -5,
-      "height": 121,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/exit_spacer.png",
-      "height": -209,
-      "ascent": -10000,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "space",
-      "advances": {
-        "": -8,
-        "": -1,
-        "": 53,
-        "": 17,
-        "": 138,
-        "": -2001,
-        "": -177,
-        "": 40,
-        "": -72,
-        "": 3,
-        "": 105,
-        "": -177,
-        "": 13,
-        "": 8,
-        "": -257,
-        "": -177,
-        "": 13,
-        "": -176
-      }
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/ui/black_box.png",
-      "ascent": 250,
-      "height": 2000,
-      "chars": [
-        "鄜"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/ui/4slotuis.png",
-      "ascent": 19,
-      "height": 103,
-      "chars": [
-        "邝卑鄌瓁",
-        "垅囟鄇燹",
-        "城鼩晱赝",
-        "乐鄛셕弓",
-        "쑅脶吵帕",
-        "暻朗痤降",
-        "隤弪扎承"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/ui/view_profile/theme_sprite.png",
-      "ascent": -9,
-      "height": 60,
-      "chars": [
-        "汈漏淠糍颉皖鳐鲏",
-        "浸濯溷娄埚皋驵鲖",
-        "洭渥泅料堰帛鳗鲷",
-        "漻浔涠喆喜座鳎鲃"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/ui/view_profile/profile_ui_overlay.png",
-      "ascent": -4,
-      "height": 72,
-      "chars": [
-        "潺浕笼笽"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/ui/view_profile/button_icons.png",
-      "ascent": -6,
-      "height": 66,
-      "chars": [
-        "泥澼氾漠"
-      ]
-    },
-    {
-      "type": "space",
-      "advances": {
-        "": -78
-      }
-    },
-    {
-      "type": "space",
-      "advances": {
-        "": -73
-      }
-    },
-    {
-      "type": "space",
-      "advances": {
-        "": -18
-      }
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/ui/view_profile/combined_buttons.png",
-      "ascent": -4,
-      "height": 72,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/ui/trade/headers.png",
-      "ascent": 19,
-      "height": 54,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/ui/6slotuis.png",
-      "ascent": 19,
-      "height": 133,
-      "chars": [
-        "盆鉊岔贫忿",
-        "掣箸髃歇逵",
-        "鼢馝的骜篝",
-        "씖암脖씓압",
-        "씔씕颁邠服",
-        "廨瘕蝶酾色",
-        "弸弹锩饲马",
-        "馍铟钾捧敖",
-        "啖欢咣吐噎"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/ui/trade/trade_frame_clean.png",
-      "ascent": 19,
-      "height": 133,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/ui/trade/trade_header_bar.png",
-      "ascent": 16,
-      "height": 16,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/ui/trade/accept_1_bar.png",
-      "ascent": 16,
-      "height": 16,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/ui/trade/accept_2_bar.png",
-      "ascent": 16,
-      "height": 16,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/ui/trade/accept_3_bar.png",
-      "ascent": 16,
-      "height": 16,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/images/notifications/staffchat.png",
-      "ascent": 7,
-      "height": 7,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "minecraft:simplounge/ranks/ranktitles.png",
-      "ascent": 7,
-      "height": 7,
-      "chars": [
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "type": "reference",
-      "id": "minecraft:include/space"
-    },
-    {
-      "type": "reference",
-      "id": "minecraft:include/default"
-    },
-    {
-      "type": "reference",
-      "id": "minecraft:include/unifont"
-    }
-  ]
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/icons/coin.png",
+      "ascent": 10,
+      "height": 10,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/icons/error.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/icons/success.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/icons/warn.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/icons/voice-icon.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/icons/added.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/signs/spawnsign1.png",
+      "ascent": 40,
+      "height": 120,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/signs/spawnsign1.png",
+      "ascent": 350,
+      "height": 578,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/logo.png",
+      "ascent": 40,
+      "height": 120,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/logo.png",
+      "ascent": 20,
+      "height": 30,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/selector/games.png",
+      "ascent": 32,
+      "height": 80,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/overlay/black.png",
+      "ascent": 1200,
+      "height": 2048,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/selector/event.png",
+      "ascent": 40,
+      "height": 120,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/selector/spawn.png",
+      "ascent": 32,
+      "height": 80,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/selector/store.png",
+      "ascent": 32,
+      "height": 80,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/selector/game1.png",
+      "ascent": 32,
+      "height": 80,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/selector/game2.png",
+      "ascent": 32,
+      "height": 80,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/selector/game3.png",
+      "ascent": 32,
+      "height": 80,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/signs/lounge_sign.png",
+      "ascent": 40,
+      "height": 120,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/signs/market_sign.png",
+      "ascent": 40,
+      "height": 120,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/signs/sky_lounge_sign.png",
+      "ascent": 40,
+      "height": 120,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/signs/down_sign.png",
+      "ascent": 40,
+      "height": 120,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/selector/select.png",
+      "ascent": 32,
+      "height": 80,
+      "chars": [
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/titles/banners.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/titles/banner_color.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/titles/title_ico_tab.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/notifications/announce_frame.png",
+      "ascent": 20,
+      "height": 40,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/notifications/notifications.png",
+      "ascent": 20,
+      "height": 40,
+      "chars": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/exit_screen.png",
+      "ascent": -111,
+      "height": 256,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/exit_logo.png",
+      "ascent": 32,
+      "height": 64,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/exit_card.png",
+      "ascent": -5,
+      "height": 80,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/exit_spacer.png",
+      "height": -209,
+      "ascent": -10000,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "": -8,
+        "": -1,
+        "": 53,
+        "": 17,
+        "": 138,
+        "": -2001,
+        "": -177,
+        "": 40,
+        "": -72,
+        "": 3,
+        "": 105,
+        "": -177,
+        "": 13,
+        "": 8,
+        "": -257,
+        "": -177,
+        "": 13,
+        "": -176
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/ui/black_box.png",
+      "ascent": 250,
+      "height": 2000,
+      "chars": [
+        "鄜"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/ui/4slotuis.png",
+      "ascent": 19,
+      "height": 103,
+      "chars": [
+        "邝卑鄌瓁",
+        "垅囟鄇燹",
+        "城鼩晱赝",
+        "乐鄛셕弓",
+        "쑅脶吵帕",
+        "暻朗痤降",
+        "隤弪扎承"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/ui/view_profile/theme_sprite.png",
+      "ascent": -9,
+      "height": 60,
+      "chars": [
+        "汈漏淠糍颉皖鳐鲏",
+        "浸濯溷娄埚皋驵鲖",
+        "洭渥泅料堰帛鳗鲷",
+        "漻浔涠喆喜座鳎鲃"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/ui/view_profile/profile_ui_overlay.png",
+      "ascent": -4,
+      "height": 72,
+      "chars": [
+        "潺浕笼笽"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/ui/view_profile/button_icons.png",
+      "ascent": -6,
+      "height": 66,
+      "chars": [
+        "泥澼氾漠"
+      ]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "": -78
+      }
+    },
+    {
+      "type": "space",
+      "advances": {
+        "": -73
+      }
+    },
+    {
+      "type": "space",
+      "advances": {
+        "": -18
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/ui/view_profile/combined_buttons.png",
+      "ascent": -4,
+      "height": 72,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/ui/trade/headers.png",
+      "ascent": 19,
+      "height": 54,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/ui/6slotuis.png",
+      "ascent": 19,
+      "height": 133,
+      "chars": [
+        "盆鉊岔贫忿",
+        "掣箸髃歇逵",
+        "鼢馝的骜篝",
+        "씖암脖씓압",
+        "씔씕颁邠服",
+        "廨瘕蝶酾色",
+        "弸弹锩饲马",
+        "馍铟钾捧敖",
+        "啖欢咣吐噎"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/ui/trade/trade_frame_clean.png",
+      "ascent": 19,
+      "height": 133,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/ui/trade/trade_header_bar.png",
+      "ascent": 16,
+      "height": 16,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/ui/trade/accept_1_bar.png",
+      "ascent": 16,
+      "height": 16,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/ui/trade/accept_2_bar.png",
+      "ascent": 16,
+      "height": 16,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/ui/trade/accept_3_bar.png",
+      "ascent": 16,
+      "height": 16,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/images/notifications/staffchat.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/ranks/ranktitles.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/space"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/default"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/unifont"
+    }
+  ]
 }
