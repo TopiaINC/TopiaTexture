@@ -556,6 +556,90 @@
       }
     },
     {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/font/bubble/chat_1_left.png",
+      "ascent": 9,
+      "height": 13,
+      "chars": ["\uEC00"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/font/bubble/chat_1_middle.png",
+      "ascent": 9,
+      "height": 13,
+      "chars": ["\uEC01"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/font/bubble/chat_1_right.png",
+      "ascent": 9,
+      "height": 13,
+      "chars": ["\uEC02"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/font/bubble/chat_1_tail.png",
+      "ascent": 9,
+      "height": 13,
+      "chars": ["\uEC03"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/font/bubble/chat_2_left.png",
+      "ascent": 19,
+      "height": 23,
+      "chars": ["\uEC10"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/font/bubble/chat_2_middle.png",
+      "ascent": 19,
+      "height": 23,
+      "chars": ["\uEC11"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/font/bubble/chat_2_right.png",
+      "ascent": 19,
+      "height": 23,
+      "chars": ["\uEC12"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/font/bubble/chat_2_tail.png",
+      "ascent": 19,
+      "height": 23,
+      "chars": ["\uEC13"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/font/bubble/chat_3_left.png",
+      "ascent": 29,
+      "height": 33,
+      "chars": ["\uEC20"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/font/bubble/chat_3_middle.png",
+      "ascent": 29,
+      "height": 33,
+      "chars": ["\uEC21"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/font/bubble/chat_3_right.png",
+      "ascent": 29,
+      "height": 33,
+      "chars": ["\uEC22"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:simplounge/font/bubble/chat_3_tail.png",
+      "ascent": 29,
+      "height": 33,
+      "chars": ["\uEC23"]
+    },
+    {
       "type": "reference",
       "id": "minecraft:include/space"
     },
