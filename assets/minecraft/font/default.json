@@ -2,6 +2,13 @@
   "providers": [
     {
       "type": "bitmap",
+      "file": "minecraft:clubtopia/images/signs/spawnsign1.png",
+      "ascent": 7,
+      "height": 20,
+      "chars": ["\uE800"]
+    },
+    {
+      "type": "bitmap",
       "file": "minecraft:clubtopia/icons/coin.png",
       "ascent": 10,
       "height": 10,
