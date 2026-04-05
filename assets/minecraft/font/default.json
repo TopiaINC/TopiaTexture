@@ -5,9 +5,7 @@
       "file": "minecraft:clubtopia/images/signs/spawnsign1.png",
       "ascent": 7,
       "height": 20,
-      "chars": [
-        "\ue800"
-      ]
+      "chars": ["\uE800"]
     },
     {
       "type": "bitmap",
@@ -15,7 +13,7 @@
       "ascent": 10,
       "height": 10,
       "chars": [
-        "\ue804"
+        ""
       ]
     },
     {
@@ -24,7 +22,7 @@
       "ascent": 7,
       "height": 7,
       "chars": [
-        "\ue805"
+        ""
       ]
     },
     {
@@ -33,7 +31,7 @@
       "ascent": 7,
       "height": 7,
       "chars": [
-        "\ue806"
+        ""
       ]
     },
     {
@@ -42,7 +40,7 @@
       "ascent": 7,
       "height": 7,
       "chars": [
-        "\ue807"
+        ""
       ]
     },
     {
@@ -51,7 +49,7 @@
       "ascent": 7,
       "height": 7,
       "chars": [
-        "\ue808"
+        ""
       ]
     },
     {
@@ -60,7 +58,7 @@
       "ascent": 7,
       "height": 7,
       "chars": [
-        "\ue809"
+        ""
       ]
     },
     {
@@ -69,7 +67,7 @@
       "ascent": 40,
       "height": 120,
       "chars": [
-        "\ue80a"
+        ""
       ]
     },
     {
@@ -78,7 +76,7 @@
       "ascent": 350,
       "height": 578,
       "chars": [
-        "\ue80b"
+        ""
       ]
     },
     {
@@ -87,7 +85,7 @@
       "ascent": 40,
       "height": 120,
       "chars": [
-        "\ue80c"
+        ""
       ]
     },
     {
@@ -96,7 +94,7 @@
       "ascent": 20,
       "height": 30,
       "chars": [
-        "\ue80d"
+        ""
       ]
     },
     {
@@ -105,7 +103,7 @@
       "ascent": 32,
       "height": 80,
       "chars": [
-        "\ue80f"
+        ""
       ]
     },
     {
@@ -114,7 +112,7 @@
       "ascent": 1200,
       "height": 2048,
       "chars": [
-        "\ue810"
+        ""
       ]
     },
     {
@@ -123,7 +121,7 @@
       "ascent": 40,
       "height": 120,
       "chars": [
-        "\ue813"
+        ""
       ]
     },
     {
@@ -132,7 +130,7 @@
       "ascent": 32,
       "height": 80,
       "chars": [
-        "\ue814"
+        ""
       ]
     },
     {
@@ -141,7 +139,7 @@
       "ascent": 32,
       "height": 80,
       "chars": [
-        "\ue815"
+        ""
       ]
     },
     {
@@ -150,7 +148,7 @@
       "ascent": 32,
       "height": 80,
       "chars": [
-        "\ue816"
+        ""
       ]
     },
     {
@@ -159,7 +157,7 @@
       "ascent": 32,
       "height": 80,
       "chars": [
-        "\ue818"
+        ""
       ]
     },
     {
@@ -168,7 +166,7 @@
       "ascent": 32,
       "height": 80,
       "chars": [
-        "\ue819"
+        ""
       ]
     },
     {
@@ -177,7 +175,7 @@
       "ascent": 40,
       "height": 120,
       "chars": [
-        "\ue81a"
+        ""
       ]
     },
     {
@@ -186,7 +184,7 @@
       "ascent": 40,
       "height": 120,
       "chars": [
-        "\ue81b"
+        ""
       ]
     },
     {
@@ -195,7 +193,7 @@
       "ascent": 40,
       "height": 120,
       "chars": [
-        "\ue81c"
+        ""
       ]
     },
     {
@@ -204,7 +202,7 @@
       "ascent": 40,
       "height": 120,
       "chars": [
-        "\ue81d"
+        ""
       ]
     },
     {
@@ -213,8 +211,8 @@
       "ascent": 32,
       "height": 80,
       "chars": [
-        "\ue81e",
-        "\ue81f"
+        "",
+        ""
       ]
     },
     {
@@ -223,44 +221,44 @@
       "ascent": 7,
       "height": 7,
       "chars": [
-        "\ue820",
-        "\ue821",
-        "\ue822",
-        "\ue823",
-        "\ue824",
-        "\ue825",
-        "\ue826",
-        "\ue827",
-        "\ue828",
-        "\ue829",
-        "\ue82a",
-        "\ue82b",
-        "\ue82c",
-        "\ue82d",
-        "\ue82e",
-        "\ue82f",
-        "\ue830",
-        "\ue831",
-        "\ue832",
-        "\ue833",
-        "\ue834",
-        "\ue835",
-        "\ue836",
-        "\ue837",
-        "\ue838",
-        "\ue839",
-        "\ue83a",
-        "\ue83b",
-        "\ue83c",
-        "\ue83d",
-        "\ue83e",
-        "\ue83f",
-        "\ue840",
-        "\ue841",
-        "\ue842",
-        "\ue843",
-        "\ue844",
-        "\ue845"
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -269,7 +267,7 @@
       "ascent": 7,
       "height": 7,
       "chars": [
-        "\ue846"
+        ""
       ]
     },
     {
@@ -278,24 +276,24 @@
       "ascent": 7,
       "height": 7,
       "chars": [
-        "\ue850\ue851\ue852\ue853\ue854\ue855\ue856\ue857\ue858\ue859\ue85a\ue85b\ue85c\ue85d\ue85e\ue85f\ue860\ue861",
-        "\ue862\ue863\ue864\ue865\ue866\ue867\ue868\ue869\ue86a\ue86b\ue86c\ue86d\ue86e\ue86f\ue870\ue871\ue872\ue873",
-        "\ue874\ue875\ue876\ue877\ue878\ue879\ue87a\ue87b\ue87c\ue87d\ue87e\ue87f\ue880\ue881\ue882\ue883\ue884\ue885",
-        "\ue886\ue887\ue888\ue889\ue88a\ue88b\ue88c\ue88d\ue88e\ue88f\ue890\ue891\ue892\ue893\ue894\ue895\ue896\ue897",
-        "\ue898\ue899\ue89a\ue89b\ue89c\ue89d\ue89e\ue89f\ue8a0\ue8a1\ue8a2\ue8a3\ue8a4\ue8a5\ue8a6\ue8a7\ue8a8\ue8a9",
-        "\ue8aa\ue8ab\ue8ac\ue8ad\ue8ae\ue8af\ue8b0\ue8b1\ue8b2\ue8b3\ue8b4\ue8b5\ue8b6\ue8b7\ue8b8\ue8b9\ue8ba\ue8bb",
-        "\ue8bc\ue8bd\ue8be\ue8bf\ue8c0\ue8c1\ue8c2\ue8c3\ue8c4\ue8c5\ue8c6\ue8c7\ue8c8\ue8c9\ue8ca\ue8cb\ue8cc\ue8cd",
-        "\ue8ce\ue8cf\ue8d0\ue8d1\ue8d2\ue8d3\ue8d4\ue8d5\ue8d6\ue8d7\ue8d8\ue8d9\ue8da\ue8db\ue8dc\ue8dd\ue8de\ue8df",
-        "\ue8e0\ue8e1\ue8e2\ue8e3\ue8e4\ue8e5\ue8e6\ue8e7\ue8e8\ue8e9\ue8ea\ue8eb\ue8ec\ue8ed\ue8ee\ue8ef\ue8f0\ue8f1",
-        "\ue8f2\ue8f3\ue8f4\ue8f5\ue8f6\ue8f7\ue8f8\ue8f9\ue8fa\ue8fb\ue8fc\ue8fd\ue8fe\ue8ff\ue900\ue901\ue902\ue903",
-        "\ue904\ue905\ue906\ue907\ue908\ue909\ue90a\ue90b\ue90c\ue90d\ue90e\ue90f\ue910\ue911\ue912\ue913\ue914\ue915",
-        "\ue916\ue917\ue918\ue919\ue91a\ue91b\ue91c\ue91d\ue91e\ue91f\ue920\ue921\ue922\ue923\ue924\ue925\ue926\ue927",
-        "\ue928\ue929\ue92a\ue92b\ue92c\ue92d\ue92e\ue92f\ue930\ue931\ue932\ue933\ue934\ue935\ue936\ue937\ue938\ue939",
-        "\ue93a\ue93b\ue93c\ue93d\ue93e\ue93f\ue940\ue941\ue942\ue943\ue944\ue945\ue946\ue947\ue948\ue949\ue94a\ue94b",
-        "\ue94c\ue94d\ue94e\ue94f\ue950\ue951\ue952\ue953\ue954\ue955\ue956\ue957\ue958\ue959\ue95a\ue95b\ue95c\ue95d",
-        "\ue95e\ue95f\ue960\ue961\ue962\ue963\ue964\ue965\ue966\ue967\ue968\ue969\ue96a\ue96b\ue96c\ue96d\ue96e\ue96f",
-        "\ue970\ue971\ue972\ue973\ue974\ue975\ue976\ue977\ue978\ue979\ue97a\ue97b\ue97c\ue97d\ue97e\ue97f\ue980\ue981",
-        "\ue982\ue983\ue984\ue985\ue986\ue987\ue988\ue989\ue98a\ue98b\ue98c\ue98d\ue98e\ue98f\ue990\ue991\ue992\ue993"
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -304,7 +302,7 @@
       "ascent": 20,
       "height": 40,
       "chars": [
-        "\uea00"
+        ""
       ]
     },
     {
@@ -313,34 +311,34 @@
       "ascent": 20,
       "height": 40,
       "chars": [
-        "\uea01\uea02\uea03\uea04\uea05",
-        "\uea06\uea07\uea08\uea09\uea0a",
-        "\uea0b\uea0c\uea0d\uea0e\uea0f",
-        "\uea10\uea11\uea12\uea13\uea14",
-        "\uea15\uea16\uea17\uea18\uea19"
+        "",
+        "",
+        "",
+        "",
+        ""
       ]
     },
     {
       "type": "space",
       "advances": {
-        "\uf809": -8,
-        "\uf801": -1,
-        "\uf810": 53,
-        "\uf811": 17,
-        "\uf820": 138,
-        "\uf700": -2001,
-        "\uf701": -177,
-        "\uf705": 40,
-        "\uf706": -72,
-        "\uf707": 3,
-        "\uf708": 105,
-        "\uf709": -177,
-        "\uf70a": 13,
-        "\uf70b": 8,
-        "\uf70c": -257,
-        "\uf70d": -177,
-        "\uf70e": 13,
-        "\uf70f": -176
+        "": -8,
+        "": -1,
+        "": 53,
+        "": 17,
+        "": 138,
+        "": -2001,
+        "": -177,
+        "": 40,
+        "": -72,
+        "": 3,
+        "": 105,
+        "": -177,
+        "": 13,
+        "": 8,
+        "": -257,
+        "": -177,
+        "": 13,
+        "": -176
       }
     },
     {
@@ -349,7 +347,7 @@
       "ascent": 250,
       "height": 2000,
       "chars": [
-        "\u911c"
+        "鄜"
       ]
     },
     {
@@ -358,13 +356,13 @@
       "ascent": 19,
       "height": 103,
       "chars": [
-        "\u909d\u5351\u910c\u74c1",
-        "\u5785\u56df\u9107\u71f9",
-        "\u57ce\u9f29\u6671\u8d5d",
-        "\u4e50\u911b\uc155\u5f13",
-        "\uc445\u8136\u5435\u5e15",
-        "\u66bb\u6717\u75e4\u964d",
-        "\u96a4\u5f2a\u624e\u627f"
+        "邝卑鄌瓁",
+        "垅囟鄇燹",
+        "城鼩晱赝",
+        "乐鄛셕弓",
+        "쑅脶吵帕",
+        "暻朗痤降",
+        "隤弪扎承"
       ]
     },
     {
@@ -373,10 +371,10 @@
       "ascent": -9,
       "height": 60,
       "chars": [
-        "\u6c48\u6f0f\u6de0\u7ccd\u9889\u7696\u9cd0\u9c8f",
-        "\u6d78\u6fef\u6eb7\u5a04\u57da\u768b\u9a75\u9c96",
-        "\u6d2d\u6e25\u6cc5\u6599\u5830\u5e1b\u9cd7\u9cb7",
-        "\u6f3b\u6d54\u6da0\u5586\u559c\u5ea7\u9cce\u9c83"
+        "汈漏淠糍颉皖鳐鲏",
+        "浸濯溷娄埚皋驵鲖",
+        "洭渥泅料堰帛鳗鲷",
+        "漻浔涠喆喜座鳎鲃"
       ]
     },
     {
@@ -385,7 +383,7 @@
       "ascent": -4,
       "height": 72,
       "chars": [
-        "\u6f7a\u6d55\u7b3c\u7b3d"
+        "潺浕笼笽"
       ]
     },
     {
@@ -394,25 +392,25 @@
       "ascent": -6,
       "height": 66,
       "chars": [
-        "\u6ce5\u6fbc\u6c3e\u6f20"
+        "泥澼氾漠"
       ]
     },
     {
       "type": "space",
       "advances": {
-        "\uf702": -78
+        "": -78
       }
     },
     {
       "type": "space",
       "advances": {
-        "\uf703": -73
+        "": -73
       }
     },
     {
       "type": "space",
       "advances": {
-        "\uf704": -18
+        "": -18
       }
     },
     {
@@ -421,7 +419,7 @@
       "ascent": 19,
       "height": 54,
       "chars": [
-        "\ueb01"
+        ""
       ]
     },
     {
@@ -430,15 +428,15 @@
       "ascent": 19,
       "height": 133,
       "chars": [
-        "\u76c6\u924a\u5c94\u8d2b\u5fff",
-        "\u63a3\u7bb8\u9ac3\u6b47\u9035",
-        "\u9f22\u999d\u7684\u9a9c\u7bdd",
-        "\uc516\uc554\u8116\uc513\uc555",
-        "\uc514\uc515\u9881\u90a0\u670d",
-        "\u5ee8\u7615\u8776\u917e\u8272",
-        "\u5f38\u5f39\u9529\u9972\u9a6c",
-        "\u998d\u94df\u94be\u6367\u6556",
-        "\u5556\u6b22\u54a3\u5410\u564e"
+        "盆鉊岔贫忿",
+        "掣箸髃歇逵",
+        "鼢馝的骜篝",
+        "씖암脖씓압",
+        "씔씕颁邠服",
+        "廨瘕蝶酾色",
+        "弸弹锩饲马",
+        "馍铟钾捧敖",
+        "啖欢咣吐噎"
       ]
     },
     {
@@ -447,7 +445,7 @@
       "ascent": 19,
       "height": 133,
       "chars": [
-        "\ueb06"
+        ""
       ]
     },
     {
@@ -456,7 +454,7 @@
       "ascent": 16,
       "height": 16,
       "chars": [
-        "\ueb02"
+        ""
       ]
     },
     {
@@ -465,7 +463,7 @@
       "ascent": 16,
       "height": 16,
       "chars": [
-        "\ueb03"
+        ""
       ]
     },
     {
@@ -474,7 +472,7 @@
       "ascent": 16,
       "height": 16,
       "chars": [
-        "\ueb04"
+        ""
       ]
     },
     {
@@ -483,7 +481,7 @@
       "ascent": 16,
       "height": 16,
       "chars": [
-        "\ueb05"
+        ""
       ]
     },
     {
@@ -492,7 +490,7 @@
       "ascent": 7,
       "height": 7,
       "chars": [
-        "\ueb82"
+        ""
       ]
     },
     {
@@ -501,10 +499,10 @@
       "ascent": 7,
       "height": 7,
       "chars": [
-        "\ueb90",
-        "\ueb91",
-        "\ueb92",
-        "\ueb93"
+        "",
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -513,7 +511,7 @@
       "ascent": 32,
       "height": 64,
       "chars": [
-        "\uec04\uec05"
+        ""
       ]
     },
     {
@@ -522,7 +520,7 @@
       "ascent": -32768,
       "height": -3,
       "chars": [
-        "\uec06"
+        ""
       ]
     },
     {
@@ -531,7 +529,7 @@
       "ascent": -12,
       "height": 50,
       "chars": [
-        "\uec07"
+        ""
       ]
     },
     {
@@ -540,19 +538,19 @@
       "ascent": -12,
       "height": 50,
       "chars": [
-        "\uec08"
+        ""
       ]
     },
     {
       "type": "space",
       "advances": {
-        "\uec09": -4,
-        "\uec0a": -1,
-        "\uec0b": -140,
-        "\uec0c": -8,
-        "\uec0d": 1,
-        "\uec0e": -202,
-        "\uec0f": 140
+        "": -4,
+        "": -1,
+        "": -140,
+        "": -8,
+        "": 1,
+        "": -202,
+        "": 140
       }
     },
     {
@@ -560,108 +558,84 @@
       "file": "minecraft:clubtopia/font/bubble/chat_1_left.png",
       "ascent": 9,
       "height": 13,
-      "chars": [
-        "\uec00"
-      ]
+      "chars": ["\uEC00"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_1_middle.png",
       "ascent": 9,
       "height": 13,
-      "chars": [
-        "\uec01"
-      ]
+      "chars": ["\uEC01"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_1_right.png",
       "ascent": 9,
       "height": 13,
-      "chars": [
-        "\uec02"
-      ]
+      "chars": ["\uEC02"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_1_tail.png",
       "ascent": 9,
       "height": 13,
-      "chars": [
-        "\uec03"
-      ]
+      "chars": ["\uEC03"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_2_left.png",
       "ascent": 19,
       "height": 23,
-      "chars": [
-        "\uec10"
-      ]
+      "chars": ["\uEC10"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_2_middle.png",
       "ascent": 19,
       "height": 23,
-      "chars": [
-        "\uec11"
-      ]
+      "chars": ["\uEC11"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_2_right.png",
       "ascent": 19,
       "height": 23,
-      "chars": [
-        "\uec12"
-      ]
+      "chars": ["\uEC12"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_2_tail.png",
       "ascent": 19,
       "height": 23,
-      "chars": [
-        "\uec13"
-      ]
+      "chars": ["\uEC13"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_3_left.png",
       "ascent": 29,
       "height": 33,
-      "chars": [
-        "\uec20"
-      ]
+      "chars": ["\uEC20"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_3_middle.png",
       "ascent": 29,
       "height": 33,
-      "chars": [
-        "\uec21"
-      ]
+      "chars": ["\uEC21"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_3_right.png",
       "ascent": 29,
       "height": 33,
-      "chars": [
-        "\uec22"
-      ]
+      "chars": ["\uEC22"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_3_tail.png",
       "ascent": 29,
       "height": 33,
-      "chars": [
-        "\uec23"
-      ]
+      "chars": ["\uEC23"]
     },
     {
       "type": "reference",
