@@ -5,7 +5,9 @@
       "file": "minecraft:clubtopia/images/signs/spawnsign1.png",
       "ascent": 7,
       "height": 20,
-      "chars": ["\uE800"]
+      "chars": [
+        ""
+      ]
     },
     {
       "type": "bitmap",
@@ -511,7 +513,7 @@
       "ascent": 32,
       "height": 64,
       "chars": [
-        ""
+        ""
       ]
     },
     {
@@ -520,7 +522,7 @@
       "ascent": -32768,
       "height": -3,
       "chars": [
-        ""
+        ""
       ]
     },
     {
@@ -529,7 +531,7 @@
       "ascent": -12,
       "height": 50,
       "chars": [
-        ""
+        ""
       ]
     },
     {
@@ -538,19 +540,19 @@
       "ascent": -12,
       "height": 50,
       "chars": [
-        ""
+        ""
       ]
     },
     {
       "type": "space",
       "advances": {
-        "": -4,
-        "": -1,
-        "": -140,
-        "": -8,
-        "": 1,
-        "": -202,
-        "": 140
+        "": -4,
+        "": -1,
+        "": -140,
+        "": -8,
+        "": 1,
+        "": -202,
+        "": 140
       }
     },
     {
@@ -558,84 +560,108 @@
       "file": "minecraft:clubtopia/font/bubble/chat_1_left.png",
       "ascent": 9,
       "height": 13,
-      "chars": ["\uEC00"]
+      "chars": [
+        ""
+      ]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_1_middle.png",
       "ascent": 9,
       "height": 13,
-      "chars": ["\uEC01"]
+      "chars": [
+        ""
+      ]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_1_right.png",
       "ascent": 9,
       "height": 13,
-      "chars": ["\uEC02"]
+      "chars": [
+        ""
+      ]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_1_tail.png",
       "ascent": 9,
       "height": 13,
-      "chars": ["\uEC03"]
+      "chars": [
+        ""
+      ]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_2_left.png",
       "ascent": 19,
       "height": 23,
-      "chars": ["\uEC10"]
+      "chars": [
+        ""
+      ]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_2_middle.png",
       "ascent": 19,
       "height": 23,
-      "chars": ["\uEC11"]
+      "chars": [
+        ""
+      ]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_2_right.png",
       "ascent": 19,
       "height": 23,
-      "chars": ["\uEC12"]
+      "chars": [
+        ""
+      ]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_2_tail.png",
       "ascent": 19,
       "height": 23,
-      "chars": ["\uEC13"]
+      "chars": [
+        ""
+      ]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_3_left.png",
       "ascent": 29,
       "height": 33,
-      "chars": ["\uEC20"]
+      "chars": [
+        ""
+      ]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_3_middle.png",
       "ascent": 29,
       "height": 33,
-      "chars": ["\uEC21"]
+      "chars": [
+        ""
+      ]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_3_right.png",
       "ascent": 29,
       "height": 33,
-      "chars": ["\uEC22"]
+      "chars": [
+        ""
+      ]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/bubble/chat_3_tail.png",
       "ascent": 29,
       "height": 33,
-      "chars": ["\uEC23"]
+      "chars": [
+        ""
+      ]
     },
     {
       "type": "reference",
