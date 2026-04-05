@@ -1,6 +1,6 @@
 {
-  "menu.game": "",
+  "menu.game": "\uEB01\uEB09\uEB11",
   "menu.returnToGame": "Back to Clubtopia",
-  "menu.disconnect": "§6Come Back Soon!§f",
+  "menu.disconnect": "\uEB08\uEB09§6Come Back Soon!§f\uEB0A\uEB06\uEB0B§f\uEB07",
   "container.inventory": " "
 }
