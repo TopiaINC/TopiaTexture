@@ -4,7 +4,8 @@
       "type": "space",
       "advances": {
         " ": 2,
-        "\uE801": -49
+        "\uE801": -49,
+        "\uE803": -49
       }
     },
     {
@@ -13,6 +14,13 @@
       "ascent": -23,
       "height": 12,
       "chars": ["\uE800"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/font/star_hud_backdrop.png",
+      "ascent": -23,
+      "height": 12,
+      "chars": ["\uE802"]
     },
     {
       "type": "bitmap",
