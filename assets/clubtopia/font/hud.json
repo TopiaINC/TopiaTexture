@@ -25,98 +25,98 @@
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/subscript_font/0.png",
-      "ascent": -24,
+      "ascent": -26,
       "height": 5,
       "chars": ["\u2080"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/subscript_font/1.png",
-      "ascent": -24,
+      "ascent": -26,
       "height": 5,
       "chars": ["\u2081"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/subscript_font/2.png",
-      "ascent": -24,
+      "ascent": -26,
       "height": 5,
       "chars": ["\u2082"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/subscript_font/3.png",
-      "ascent": -24,
+      "ascent": -26,
       "height": 5,
       "chars": ["\u2083"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/subscript_font/4.png",
-      "ascent": -24,
+      "ascent": -26,
       "height": 5,
       "chars": ["\u2084"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/subscript_font/5.png",
-      "ascent": -24,
+      "ascent": -26,
       "height": 5,
       "chars": ["\u2085"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/subscript_font/6.png",
-      "ascent": -24,
+      "ascent": -26,
       "height": 5,
       "chars": ["\u2086"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/subscript_font/7.png",
-      "ascent": -24,
+      "ascent": -26,
       "height": 5,
       "chars": ["\u2087"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/subscript_font/8.png",
-      "ascent": -24,
+      "ascent": -26,
       "height": 5,
       "chars": ["\u2088"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/subscript_font/9.png",
-      "ascent": -24,
+      "ascent": -26,
       "height": 5,
       "chars": ["\u2089"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/subscript_font/dot.png",
-      "ascent": -24,
+      "ascent": -26,
       "height": 5,
       "chars": ["."]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/subscript_font/k.png",
-      "ascent": -24,
+      "ascent": -26,
       "height": 5,
       "chars": ["\u1D0B"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/subscript_font/m.png",
-      "ascent": -24,
+      "ascent": -26,
       "height": 5,
       "chars": ["\u1D0D"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/font/subscript_font/b.png",
-      "ascent": -24,
+      "ascent": -26,
       "height": 5,
       "chars": ["\u0299"]
     }
