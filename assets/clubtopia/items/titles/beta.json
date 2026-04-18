@@ -1,9 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "clubtopia:titles/beta",
-    "tints": [
-      { "type": "minecraft:dye", "default": -1 }
-    ]
+    "model": "clubtopia:titles/beta"
   }
 }
