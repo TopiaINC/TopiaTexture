@@ -1,7 +1,7 @@
 {
 	"textures": {
-		"all": "clubtopia:titles/banner_frame",
-		"particle": "clubtopia:titles/banner_frame"
+		"all": "clubtopia:item/banner_frame",
+		"particle": "clubtopia:item/banner_frame"
 	},
 	"elements": [
 		{
