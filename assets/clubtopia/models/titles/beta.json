@@ -1,7 +1,7 @@
 {
 	"textures": {
-		"all": "clubtopia:item/coin",
-		"particle": "clubtopia:item/coin"
+		"all": "clubtopia:titles/banner_frame",
+		"particle": "clubtopia:titles/banner_frame"
 	},
 	"elements": [
 		{
