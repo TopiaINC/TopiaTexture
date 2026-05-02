@@ -664,10 +664,10 @@
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/ui/inventory_scroll.png",
-      "ascent": -30,
+      "ascent": 8,
       "height": 55,
       "chars": [
-        "\u6d23\u7035\u6f7e\u6e87\u6de1\u6c99\u6d38\u6cee\u5723\u7014\u916f\u914f\u914c\u9172\u9762"
+        "\ue200\ue201\ue202\ue203\ue204\ue205\ue206\ue207\ue208\ue209\ue20a\ue20b\ue20c\ue20d\ue20e"
       ]
     }
   ]
