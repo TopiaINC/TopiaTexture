@@ -677,26 +677,11 @@
     },
     {
       "type": "bitmap",
-      "file": "clubtopia:ui/inventory_scroll.png",
+      "file": "minecraft:clubtopia/ui/inventory_scroll.png",
       "ascent": -12,
       "height": 55,
       "chars": [
         "洣瀵潾溇淡沙洸泮圣瀔酯酏酌酲面"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "clubtopia:ui/4slotuis.png",
-      "ascent": 19,
-      "height": 103,
-      "chars": [
-        "邝卑鄌瓁",
-        "垅囟鄇燹",
-        "城鼩晱赝",
-        "乐鄛셕弓",
-        "씅脶吵帕",
-        "暻朗痤降",
-        "隤弪扎承"
       ]
     },
     {
