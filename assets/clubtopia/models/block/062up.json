@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/cube","textures":{"particle":"clubtopia:block/062up","north":"clubtopia:block/062up","south":"clubtopia:block/062up","east":"clubtopia:block/062up","west":"clubtopia:block/062up","up":"clubtopia:block/062up","down":"clubtopia:block/062up"}}
+{"parent":"minecraft:block/cube","textures":{"particle":"clubtopia:block/062up","north":"clubtopia:block/062up","south":"clubtopia:block/062up","east":"clubtopia:block/062up","west":"clubtopia:block/062up","up":"minecraft:block/end_stone_bricks","down":"minecraft:block/end_stone_bricks"}}
