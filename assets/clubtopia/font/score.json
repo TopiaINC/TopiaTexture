@@ -1,0 +1,104 @@
+{
+  "providers": [
+    {
+      "comment": "Scoreboard digit 0. Same 5x5 art as the HUD's subscript set, drawn at 2x: 10px tall, 2px strokes. Pure white so the component colour tints it.",
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/font/subscript_font/0.png",
+      "ascent": 10,
+      "height": 10,
+      "chars": [
+        "0"
+      ]
+    },
+    {
+      "comment": "Scoreboard digit 1. Same 5x5 art as the HUD's subscript set, drawn at 2x: 10px tall, 2px strokes. Pure white so the component colour tints it.",
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/font/subscript_font/1.png",
+      "ascent": 10,
+      "height": 10,
+      "chars": [
+        "1"
+      ]
+    },
+    {
+      "comment": "Scoreboard digit 2. Same 5x5 art as the HUD's subscript set, drawn at 2x: 10px tall, 2px strokes. Pure white so the component colour tints it.",
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/font/subscript_font/2.png",
+      "ascent": 10,
+      "height": 10,
+      "chars": [
+        "2"
+      ]
+    },
+    {
+      "comment": "Scoreboard digit 3. Same 5x5 art as the HUD's subscript set, drawn at 2x: 10px tall, 2px strokes. Pure white so the component colour tints it.",
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/font/subscript_font/3.png",
+      "ascent": 10,
+      "height": 10,
+      "chars": [
+        "3"
+      ]
+    },
+    {
+      "comment": "Scoreboard digit 4. Same 5x5 art as the HUD's subscript set, drawn at 2x: 10px tall, 2px strokes. Pure white so the component colour tints it.",
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/font/subscript_font/4.png",
+      "ascent": 10,
+      "height": 10,
+      "chars": [
+        "4"
+      ]
+    },
+    {
+      "comment": "Scoreboard digit 5. Same 5x5 art as the HUD's subscript set, drawn at 2x: 10px tall, 2px strokes. Pure white so the component colour tints it.",
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/font/subscript_font/5.png",
+      "ascent": 10,
+      "height": 10,
+      "chars": [
+        "5"
+      ]
+    },
+    {
+      "comment": "Scoreboard digit 6. Same 5x5 art as the HUD's subscript set, drawn at 2x: 10px tall, 2px strokes. Pure white so the component colour tints it.",
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/font/subscript_font/6.png",
+      "ascent": 10,
+      "height": 10,
+      "chars": [
+        "6"
+      ]
+    },
+    {
+      "comment": "Scoreboard digit 7. Same 5x5 art as the HUD's subscript set, drawn at 2x: 10px tall, 2px strokes. Pure white so the component colour tints it.",
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/font/subscript_font/7.png",
+      "ascent": 10,
+      "height": 10,
+      "chars": [
+        "7"
+      ]
+    },
+    {
+      "comment": "Scoreboard digit 8. Same 5x5 art as the HUD's subscript set, drawn at 2x: 10px tall, 2px strokes. Pure white so the component colour tints it.",
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/font/subscript_font/8.png",
+      "ascent": 10,
+      "height": 10,
+      "chars": [
+        "8"
+      ]
+    },
+    {
+      "comment": "Scoreboard digit 9. Same 5x5 art as the HUD's subscript set, drawn at 2x: 10px tall, 2px strokes. Pure white so the component colour tints it.",
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/font/subscript_font/9.png",
+      "ascent": 10,
+      "height": 10,
+      "chars": [
+        "9"
+      ]
+    }
+  ]
+}
