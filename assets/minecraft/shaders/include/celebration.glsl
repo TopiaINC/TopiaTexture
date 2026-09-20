@@ -14,7 +14,11 @@ const float GLOW_STRENGTH = 0.42;
 
 // Largest share of grid cells that may hold a piece, per layer. Density scales
 // into this. Without a ceiling the screen fills with static.
-const float MAX_OCCUPANCY = 0.16;
+const float MAX_OCCUPANCY = 0.12;
+
+// Cells across the quad. The quad is about twice the screen's larger dimension,
+// so only a fraction of these are ever on screen.
+const float CONFETTI_GRID = 56.0;
 
 // GameTime runs 0..1 across a 20-minute Minecraft day. Seconds are far easier
 // to reason about for fall speeds and spin rates.
@@ -44,52 +48,60 @@ vec3 confettiColour(float h) {
 //
 // Layer 0 is nearest: biggest, brightest, fastest. Further layers are smaller,
 // dimmer and slower, which is what gives the fall any sense of depth.
-vec4 confettiLayer(vec2 uv, float t, float layer, float aspect, float occupancy, float sizeScale) {
+//
+// The quad this runs over is square, so the grid is square too and a cell is
+// square on screen. An earlier version scaled the grid by the screen aspect and
+// then "corrected" for it the wrong way round, which squeezed every piece into a
+// thin vertical sliver.
+vec4 confettiLayer(vec2 uv, float t, float layer, float occupancy, float sizeScale) {
     float depth = 1.0 - layer * 0.28;                 // 1.00, 0.72, 0.44
-    float speed = 0.055 + layer * 0.02;
-    vec2 grid = vec2(30.0 * aspect, 18.0) * (1.0 + layer * 0.45);
+    float speed = 0.05 + layer * 0.018;
+    float n = CONFETTI_GRID * (1.0 + layer * 0.45);
+    vec2 grid = vec2(n, n);
 
     vec2 gv = vec2(uv.x * grid.x, uv.y * grid.y + t * speed * grid.y);
     vec2 cell = floor(gv);
     vec2 f = fract(gv) - 0.5;
 
-    float h = celebrationHash(cell + layer * 71.3);
-    if (h > occupancy) return vec4(0.0);              // most cells stay empty
+    // Whether a cell holds a piece at all.
+    float pick = celebrationHash(cell + layer * 71.3);
+    if (pick > occupancy) return vec4(0.0);
 
-    float h2 = celebrationHash(cell + 3.17);
-    float h3 = celebrationHash(cell + 7.71);
+    // Colour must come from its own hash. Using "pick" made every piece red:
+    // a cell only survives when pick <= occupancy, and occupancy is a few
+    // hundredths, so pick was always at the very bottom of its range and always
+    // chose the first colour.
+    float hCol  = celebrationHash(cell + 19.37);
+    float hRot  = celebrationHash(cell + 3.17);
+    float hSize = celebrationHash(cell + 7.71);
 
-    vec2 d = f - (vec2(h2, h3) - 0.5) * 0.7;          // jitter within the cell
-    d.x *= grid.x / grid.y;                           // square pieces on any screen
+    vec2 d = f - (vec2(hRot, hSize) - 0.5) * 0.6;     // jitter within the cell
 
     // Tumbling, each piece at its own rate.
-    float ang = h2 * 6.2831 + t * (0.9 + h3 * 2.6);
+    float ang = hRot * 6.2831 + t * (0.9 + hSize * 2.6);
     float c = cos(ang), sn = sin(ang);
     d = mat2(c, -sn, sn, c) * d;
 
-    // A piece is a small rectangle, its size varying a little piece to piece.
     // Not "half": that is a reserved word in GLSL and will not compile.
-    vec2 halfSize = vec2(0.085, 0.052) * (0.75 + h3 * 0.5) * depth * sizeScale;
+    vec2 halfSize = vec2(0.12, 0.07) * (0.75 + hSize * 0.5) * depth * sizeScale;
     if (abs(d.x) > halfSize.x || abs(d.y) > halfSize.y) return vec4(0.0);
 
     // Edge-on pieces catch less light, which is what sells the tumble.
     float shade = 0.55 + 0.45 * abs(cos(ang * 1.7));
-    vec3 col = confettiColour(h) * shade * depth;
-    return vec4(col, depth);
+    return vec4(confettiColour(hCol) * shade * depth, depth);
 }
 
 /**
  * Confetti across the quad.
- * density  0..1, scaled to a sane share of cells rather than used directly —
- *          the first pass filled four cells in five and looked like static.
+ * density   0..1, scaled into a capped share of cells rather than used directly.
  * pieceSize 0..1 around a midpoint of 0.5.
  */
-vec4 confettiRender(vec2 uv, float aspect, float density, float pieceSize) {
+vec4 confettiRender(vec2 uv, float density, float pieceSize) {
     float t = celebrationSeconds();
     float occupancy = clamp(density, 0.0, 1.0) * MAX_OCCUPANCY;
     float sizeScale = 0.4 + clamp(pieceSize, 0.0, 1.0) * 1.6;
     for (float layer = 0.0; layer < 3.0; layer += 1.0) {
-        vec4 piece = confettiLayer(uv, t, layer, aspect, occupancy, sizeScale);
+        vec4 piece = confettiLayer(uv, t, layer, occupancy, sizeScale);
         if (piece.a > 0.0) return piece;              // nearest layer wins
     }
     return vec4(0.0);

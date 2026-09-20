@@ -20,7 +20,6 @@ in vec2 texCoord0;
 in float drawMode;
 in float paramG;
 in float paramB;
-in float screenAspect;
 
 out vec4 fragColor;
 
@@ -30,7 +29,7 @@ const float MODE_CONFETTI      = 3.0;
 
 void main() {
     if (drawMode >= MODE_CONFETTI) {
-        vec4 piece = confettiRender(texCoord0, screenAspect, paramB / 255.0, paramG / 255.0);
+        vec4 piece = confettiRender(texCoord0, paramB / 255.0, paramG / 255.0);
         if (piece.a < 0.01) discard;
         fragColor = vec4(piece.rgb, piece.a * vertexColor.a);
         return;

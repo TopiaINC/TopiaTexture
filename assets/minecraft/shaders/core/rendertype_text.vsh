@@ -18,7 +18,6 @@
 #moj_import <minecraft:fog.glsl>
 #moj_import <minecraft:dynamictransforms.glsl>
 #moj_import <minecraft:projection.glsl>
-#moj_import <minecraft:globals.glsl>
 
 in vec3 Position;
 in vec4 Color;
@@ -34,7 +33,6 @@ out vec2 texCoord0;
 out float drawMode;
 out float paramG;
 out float paramB;
-out float screenAspect;
 
 // A glyph is four vertices. corners remaps its UVs to a clean 0..1 square so the
 // fragment shader can treat it as a viewport; corners2 is the same four corners
@@ -53,7 +51,6 @@ void main() {
     drawMode = 0.0;
     paramG = 0.0;
     paramB = 0.0;
-    screenAspect = max(0.1, ScreenSize.x / max(1.0, ScreenSize.y));
     texCoord0 = UV0;
     vertexColor = Color * texelFetch(Sampler2, UV2 / 16, 0);
 
