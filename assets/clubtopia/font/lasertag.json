@@ -1,0 +1,12 @@
+{
+  "providers": [
+    {
+      "comment": "LaserTag scoreboard panel background. 250x150 source, drawn at half scale. ascent puts its top just above the text baseline so the panel hangs down from the boss bar. Emit it in WHITE — Minecraft multiplies a bitmap glyph by the text colour, and any other colour tints the panel.",
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/lasertag/panel.png",
+      "ascent": 10,
+      "height": 75,
+      "chars": [""]
+    }
+  ]
+}
