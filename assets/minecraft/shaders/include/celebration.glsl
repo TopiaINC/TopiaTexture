@@ -8,6 +8,10 @@
 //
 // Needs <minecraft:globals.glsl> for GameTime.
 
+// Overall glow brightness. The first pass was a small hard disc with a white
+// core; this is dimmer and wider so it reads as a backlight rather than a lamp.
+const float GLOW_STRENGTH = 0.42;
+
 // GameTime runs 0..1 across a 20-minute Minecraft day. Seconds are far easier
 // to reason about for fall speeds and spin rates.
 float celebrationSeconds() {
@@ -82,11 +86,13 @@ vec4 celebrationGlow(vec2 uv, float strength) {
     float a = atan(p.y, p.x);
     float t = celebrationSeconds();
 
-    float rays = 0.55 + 0.45 * sin(a * 11.0 + t * 0.35);
-    float falloff = smoothstep(0.52, 0.04, r);
-    float intensity = falloff * (0.40 + 0.60 * rays) * strength;
+    // Reaches the quad's corners (0.707) rather than stopping short of the
+    // figure, and the falloff starts from the centre so there is no bright core.
+    float rays = 0.70 + 0.30 * sin(a * 11.0 + t * 0.35);
+    float falloff = smoothstep(0.72, 0.0, r);
+    falloff *= falloff;                       // long soft tail instead of a disc
+    float intensity = falloff * (0.55 + 0.45 * rays) * strength * GLOW_STRENGTH;
 
-    // Warm gold, whiter toward the middle.
-    vec3 col = mix(vec3(1.00, 0.78, 0.36), vec3(1.0), smoothstep(0.30, 0.0, r));
-    return vec4(col, clamp(intensity, 0.0, 1.0));
+    // Warm gold throughout; the white core was what read as too bright.
+    return vec4(vec3(1.00, 0.80, 0.42), clamp(intensity, 0.0, 1.0));
 }
