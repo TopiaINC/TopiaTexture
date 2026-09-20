@@ -42,9 +42,33 @@ vec2[4] corners2 = vec2[](vec2(-1, -1), vec2(-1, 1), vec2(1, 1), vec2(1, -1));
 
 // Colour channels arrive as bytes over 255; round-trip them so the server's
 // values survive exactly.
-// How far a portrait overshoots its size while fading, as a fraction of the
-// quad. Scale-invariant, so it reads the same at any portrait size.
-const float PORTRAIT_POP = 0.16;
+// The arrival curve, as multiples of the portrait's normal size. It starts
+// small, builds, dips back a little, then swings up through a clear overshoot
+// and settles. Every value is a size multiplier, so the whole thing reads the
+// same at any portrait size.
+const float POP_START = 0.25;   // first visible frame
+const float POP_RISE  = 0.72;   // end of the build
+const float POP_DIP   = 0.58;   // the dip before the swing
+const float POP_PEAK  = 1.22;   // the overshoot
+// Where each stage ends, along the fade.
+const float POP_T_RISE = 0.34;
+const float POP_T_DIP  = 0.50;
+const float POP_T_PEAK = 0.80;
+
+// smoothstep between the stages gives a smooth join at every boundary, so the
+// curve has no corners even though it is written in pieces.
+float portraitPop(float t) {
+    if (t < POP_T_RISE) {
+        return mix(POP_START, POP_RISE, smoothstep(0.0, POP_T_RISE, t));
+    }
+    if (t < POP_T_DIP) {
+        return mix(POP_RISE, POP_DIP, smoothstep(POP_T_RISE, POP_T_DIP, t));
+    }
+    if (t < POP_T_PEAK) {
+        return mix(POP_DIP, POP_PEAK, smoothstep(POP_T_DIP, POP_T_PEAK, t));
+    }
+    return mix(POP_PEAK, 1.0, smoothstep(POP_T_PEAK, 1.0, t));
+}
 
 float channel(float c) {
     return floor(c * 255.0 + 0.5);
@@ -86,16 +110,19 @@ void main() {
         } else {
             expand = max(1.0, channel(Color.g));
 
-            // The arrival pop. Color's alpha carries the title's fade, so the
-            // figure arrives slightly oversized and settles as it fades in, then
-            // swells again as it fades out.
+            // The arrival pop. Color's alpha carries the title's fade, which
+            // is the only clock the shader has, so the curve is driven from it.
             //
             // This has to live here. Animating it from the server means
             // re-sending the title every tick, and Gui.setTitle resets the
-            // animation timer, so the fade restarts each time and the whole
-            // thing flickers.
+            // animation timer, so the fade restarts each time and it flickers.
+            //
+            // The fade only tells us how visible the figure is, not which
+            // direction it is heading, so the same curve runs in reverse on the
+            // way out — the figure swings up and shrinks away rather than just
+            // dimming.
             float fade = clamp(Color.a, 0.0, 1.0);
-            expand *= 1.0 + PORTRAIT_POP * (1.0 - fade);
+            expand *= portraitPop(fade);
         }
         pos.xy += corners2[gl_VertexID % 4] * expand;
     }
