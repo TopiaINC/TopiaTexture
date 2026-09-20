@@ -42,32 +42,27 @@ vec2[4] corners2 = vec2[](vec2(-1, -1), vec2(-1, 1), vec2(1, 1), vec2(1, -1));
 
 // Colour channels arrive as bytes over 255; round-trip them so the server's
 // values survive exactly.
-// The arrival curve, as multiples of the portrait's normal size. It starts
-// small, builds, dips back a little, then swings up through a clear overshoot
-// and settles. Every value is a size multiplier, so the whole thing reads the
-// same at any portrait size.
-const float POP_START = 0.25;   // first visible frame
-const float POP_RISE  = 0.72;   // end of the build
-const float POP_DIP   = 0.58;   // the dip before the swing
-const float POP_PEAK  = 1.22;   // the overshoot
-// Where each stage ends, along the fade.
-const float POP_T_RISE = 0.34;
-const float POP_T_DIP  = 0.50;
-const float POP_T_PEAK = 0.80;
+// The arrival curve, as multiples of the portrait's normal size.
+//
+// One motion: grow smoothly, overshoot once, settle. An earlier version built,
+// dipped, then peaked — three changes of direction on the way in, and because
+// the shader runs the curve in reverse on the way out, six in total. It read as
+// wobbling rather than as a pop.
+//
+// The curve also finishes before the fade does (POP_SPAN). Past that point the
+// size is simply 1.0, so on the way out the figure holds its size while it dims
+// and only shrinks once it is nearly invisible — which keeps the reverse from
+// being read as a second animation.
+const float POP_START = 0.45;   // size on the first visible frame
+const float POP_BACK  = 2.6;    // overshoot strength; 0 removes it entirely
+const float POP_SPAN  = 0.85;   // fraction of the fade the curve occupies
 
-// smoothstep between the stages gives a smooth join at every boundary, so the
-// curve has no corners even though it is written in pieces.
-float portraitPop(float t) {
-    if (t < POP_T_RISE) {
-        return mix(POP_START, POP_RISE, smoothstep(0.0, POP_T_RISE, t));
-    }
-    if (t < POP_T_DIP) {
-        return mix(POP_RISE, POP_DIP, smoothstep(POP_T_RISE, POP_T_DIP, t));
-    }
-    if (t < POP_T_PEAK) {
-        return mix(POP_DIP, POP_PEAK, smoothstep(POP_T_DIP, POP_T_PEAK, t));
-    }
-    return mix(POP_PEAK, 1.0, smoothstep(POP_T_PEAK, 1.0, t));
+float portraitPop(float fade) {
+    float t = clamp(fade / POP_SPAN, 0.0, 1.0);
+    // Back-ease: a cubic that rises, passes 1.0, and returns to it.
+    float u = t - 1.0;
+    float eased = 1.0 + (POP_BACK + 1.0) * u * u * u + POP_BACK * u * u;
+    return mix(POP_START, 1.0, eased);
 }
 
 float channel(float c) {
