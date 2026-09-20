@@ -1,14 +1,18 @@
 #version 330
 
-// Vanilla 1.21.11 rendertype_text.vsh, plus the player-portrait path.
+// Vanilla 1.21.11 rendertype_text.vsh, plus the celebration paths.
 //
-// A text component sent with colour #01GGBB is treated as a portrait rather
-// than text. The channels carry parameters, so the server can resize and reframe
-// the portrait per title without anyone touching this file:
+// A text component's colour is read as parameters rather than as a colour. The
+// red channel picks which path to draw; nothing else on screen uses these
+// values, so ordinary text is untouched.
 //
-//   R = 1    the marker. Nothing else on screen uses red == 1/255.
-//   G        quad size in GUI units, 1-255.
-//   B        framing, 100 = head and torso, 200 = full body with legs.
+//   R = 1   player portrait
+//   R = 2   player portrait with the glow behind it
+//   R = 3   screen-filling confetti
+//
+//   G       quad size in GUI units, 1-255
+//   B       portraits: framing, 100 head and torso, 200 down to the feet
+//           confetti: density, higher is busier
 
 #moj_import <minecraft:fog.glsl>
 #moj_import <minecraft:dynamictransforms.glsl>
@@ -25,33 +29,34 @@ out float sphericalVertexDistance;
 out float cylindricalVertexDistance;
 out vec4 vertexColor;
 out vec2 texCoord0;
-out float portraitMask;
-out float portraitZoom;
+out float drawMode;
+out float paramB;
 
 // A glyph is four vertices. corners remaps its UVs to a clean 0..1 square so the
 // fragment shader can treat it as a viewport; corners2 pushes the quad outward
-// from its centre to make room for the figure.
+// from its centre to make room.
 vec2[4] corners  = vec2[](vec2(0, 0), vec2(0, 1), vec2(1, 1), vec2(1, 0));
 vec2[4] corners2 = vec2[](vec2(-1, -1), vec2(-1, 1), vec2(1, 1), vec2(1, -1));
 
-// Colour channels arrive as bytes divided by 255; round-trip them back to whole
-// numbers so the server's values survive exactly.
+// Colour channels arrive as bytes over 255; round-trip them so the server's
+// values survive exactly.
 float channel(float c) {
     return floor(c * 255.0 + 0.5);
 }
 
 void main() {
     vec3 pos = Position;
-    portraitMask = 0.0;
-    portraitZoom = 1.0;
+    drawMode = 0.0;
+    paramB = 0.0;
     texCoord0 = UV0;
     vertexColor = Color * texelFetch(Sampler2, UV2 / 16, 0);
 
-    if (channel(Color.r) == 1.0) {
+    float mode = channel(Color.r);
+    if (mode >= 1.0 && mode <= 3.0) {
         vertexColor.rgb = vec3(1.0);
         texCoord0 = corners[gl_VertexID % 4];
-        portraitMask = 1.0;
-        portraitZoom = max(0.05, channel(Color.b) / 100.0);
+        drawMode = mode;
+        paramB = channel(Color.b);
         pos.xy += corners2[gl_VertexID % 4] * max(1.0, channel(Color.g));
     }
 

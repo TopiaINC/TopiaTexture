@@ -1,2 +1,8 @@
 *.zip
 sha1.txt
+
+# OS cruft. Without these, macOS .DS_Store files get committed and the build
+# workflow ships them inside the pack zip — it only skips *.psd.
+.DS_Store
+Thumbs.db
+._*
