@@ -3,8 +3,8 @@
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/titles/victory.png",
-      "ascent": -10,
-      "height": 36,
+      "ascent": 8,
+      "height": 9,
       "chars": [
         "\ue900"
       ]
@@ -12,8 +12,8 @@
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/titles/victory.png",
-      "ascent": -40,
-      "height": 36,
+      "ascent": 0,
+      "height": 9,
       "chars": [
         "\ue901"
       ]
@@ -21,8 +21,8 @@
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/titles/victory.png",
-      "ascent": -70,
-      "height": 36,
+      "ascent": -8,
+      "height": 9,
       "chars": [
         "\ue902"
       ]
@@ -30,8 +30,8 @@
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/titles/victory.png",
-      "ascent": -100,
-      "height": 36,
+      "ascent": -16,
+      "height": 9,
       "chars": [
         "\ue903"
       ]
@@ -39,10 +39,154 @@
     {
       "type": "bitmap",
       "file": "minecraft:clubtopia/titles/victory.png",
-      "ascent": -130,
-      "height": 36,
+      "ascent": -24,
+      "height": 9,
       "chars": [
         "\ue904"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/titles/victory.png",
+      "ascent": -32,
+      "height": 9,
+      "chars": [
+        "\ue905"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/titles/victory.png",
+      "ascent": -40,
+      "height": 9,
+      "chars": [
+        "\ue906"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/titles/victory.png",
+      "ascent": 8,
+      "height": 18,
+      "chars": [
+        "\ue907"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/titles/victory.png",
+      "ascent": 0,
+      "height": 18,
+      "chars": [
+        "\ue908"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/titles/victory.png",
+      "ascent": -8,
+      "height": 18,
+      "chars": [
+        "\ue909"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/titles/victory.png",
+      "ascent": -16,
+      "height": 18,
+      "chars": [
+        "\ue90a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/titles/victory.png",
+      "ascent": -24,
+      "height": 18,
+      "chars": [
+        "\ue90b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/titles/victory.png",
+      "ascent": -32,
+      "height": 18,
+      "chars": [
+        "\ue90c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/titles/victory.png",
+      "ascent": -40,
+      "height": 18,
+      "chars": [
+        "\ue90d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/titles/victory.png",
+      "ascent": 8,
+      "height": 27,
+      "chars": [
+        "\ue90e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/titles/victory.png",
+      "ascent": 0,
+      "height": 27,
+      "chars": [
+        "\ue90f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/titles/victory.png",
+      "ascent": -8,
+      "height": 27,
+      "chars": [
+        "\ue910"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/titles/victory.png",
+      "ascent": -16,
+      "height": 27,
+      "chars": [
+        "\ue911"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/titles/victory.png",
+      "ascent": -24,
+      "height": 27,
+      "chars": [
+        "\ue912"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/titles/victory.png",
+      "ascent": -32,
+      "height": 27,
+      "chars": [
+        "\ue913"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:clubtopia/titles/victory.png",
+      "ascent": -40,
+      "height": 27,
+      "chars": [
+        "\ue914"
       ]
     }
   ]
