@@ -68,8 +68,9 @@ vec4 confettiLayer(vec2 uv, float t, float layer, float aspect, float occupancy,
     d = mat2(c, -sn, sn, c) * d;
 
     // A piece is a small rectangle, its size varying a little piece to piece.
-    vec2 half = vec2(0.085, 0.052) * (0.75 + h3 * 0.5) * depth * sizeScale;
-    if (abs(d.x) > half.x || abs(d.y) > half.y) return vec4(0.0);
+    // Not "half": that is a reserved word in GLSL and will not compile.
+    vec2 halfSize = vec2(0.085, 0.052) * (0.75 + h3 * 0.5) * depth * sizeScale;
+    if (abs(d.x) > halfSize.x || abs(d.y) > halfSize.y) return vec4(0.0);
 
     // Edge-on pieces catch less light, which is what sells the tumble.
     float shade = 0.55 + 0.45 * abs(cos(ang * 1.7));
