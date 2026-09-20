@@ -1,6 +1,29 @@
 {
   "providers": [
     {
+      "type": "space",
+      "advances": {
+        "\ue920": 1,
+        "\ue921": 2,
+        "\ue922": 4,
+        "\ue923": 8,
+        "\ue924": 16,
+        "\ue925": 32,
+        "\ue926": 64,
+        "\ue927": 128,
+        "\ue928": 256,
+        "\ue930": -1,
+        "\ue931": -2,
+        "\ue932": -4,
+        "\ue933": -8,
+        "\ue934": -16,
+        "\ue935": -32,
+        "\ue936": -64,
+        "\ue937": -128,
+        "\ue938": -256
+      }
+    },
+    {
       "type": "bitmap",
       "file": "minecraft:clubtopia/titles/blank.png",
       "ascent": 8,
