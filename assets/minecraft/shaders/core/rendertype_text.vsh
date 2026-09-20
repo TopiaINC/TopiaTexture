@@ -59,29 +59,33 @@ void main() {
 
     float mode = channel(Color.r);
 
-    if (mode == 3.0) {
-        // Confetti covers the screen, so it ignores where the glyph happens to
-        // sit and is written straight to clip space. Expanding a quad by a fixed
-        // number of GUI units cannot do this: the right number depends on the
-        // window size and the GUI scale, so it was always either short of the
-        // edges or wastefully large.
+    if (mode >= 1.0 && mode <= 3.0) {
+        vertexColor.rgb = vec3(1.0);
+        texCoord0 = corners[gl_VertexID % 4];
         drawMode = mode;
         paramG = channel(Color.g);
         paramB = channel(Color.b);
-        vertexColor.rgb = vec3(1.0);
-        texCoord0 = corners[gl_VertexID % 4];
-        sphericalVertexDistance = 0.0;
-        cylindricalVertexDistance = 0.0;
-        gl_Position = vec4(corners2[gl_VertexID % 4], 0.0, 1.0);
-        return;
-    }
 
-    if (mode == 1.0 || mode == 2.0) {
-        vertexColor.rgb = vec3(1.0);
-        texCoord0 = corners[gl_VertexID % 4];
-        drawMode = mode;
-        paramB = channel(Color.b);
-        pos.xy += corners2[gl_VertexID % 4] * max(1.0, channel(Color.g));
+        float expand;
+        if (mode == 3.0) {
+            // Confetti has to cover the screen. A fixed number of GUI units
+            // cannot: how many span a screen depends on the window size and the
+            // GUI scale, so a constant is always either short of the edges or
+            // wastefully large.
+            //
+            // The GUI transform is orthographic, so its diagonal gives the
+            // conversion directly — 2.0 clip units is the full screen, and
+            // mvp[0][0] is how much clip one GUI unit buys. Expanding by the
+            // whole span in both axes covers the screen from wherever the glyph
+            // happens to sit, without leaving the normal transform behind.
+            mat4 mvp = ProjMat * ModelViewMat;
+            float unitsX = 2.0 / max(1.0e-6, abs(mvp[0][0]));
+            float unitsY = 2.0 / max(1.0e-6, abs(mvp[1][1]));
+            expand = max(unitsX, unitsY);
+        } else {
+            expand = max(1.0, channel(Color.g));
+        }
+        pos.xy += corners2[gl_VertexID % 4] * expand;
     }
 
     sphericalVertexDistance = fog_spherical_distance(pos);
