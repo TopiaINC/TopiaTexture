@@ -42,6 +42,10 @@ vec2[4] corners2 = vec2[](vec2(-1, -1), vec2(-1, 1), vec2(1, 1), vec2(1, -1));
 
 // Colour channels arrive as bytes over 255; round-trip them so the server's
 // values survive exactly.
+// How far a portrait overshoots its size while fading, as a fraction of the
+// quad. Scale-invariant, so it reads the same at any portrait size.
+const float PORTRAIT_POP = 0.16;
+
 float channel(float c) {
     return floor(c * 255.0 + 0.5);
 }
@@ -81,6 +85,17 @@ void main() {
             expand = max(unitsX, unitsY);
         } else {
             expand = max(1.0, channel(Color.g));
+
+            // The arrival pop. Color's alpha carries the title's fade, so the
+            // figure arrives slightly oversized and settles as it fades in, then
+            // swells again as it fades out.
+            //
+            // This has to live here. Animating it from the server means
+            // re-sending the title every tick, and Gui.setTitle resets the
+            // animation timer, so the fade restarts each time and the whole
+            // thing flickers.
+            float fade = clamp(Color.a, 0.0, 1.0);
+            expand *= 1.0 + PORTRAIT_POP * (1.0 - fade);
         }
         pos.xy += corners2[gl_VertexID % 4] * expand;
     }
