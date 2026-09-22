@@ -1,12 +1,14 @@
 {
   "providers": [
     {
-      "comment": "LaserTag scoreboard panel background. 250x150 source, drawn at half scale. ascent puts its top just above the text baseline so the panel hangs down from the boss bar. Emit it in WHITE — Minecraft multiplies a bitmap glyph by the text colour, and any other colour tints the panel.",
+      "comment": "LaserTag scoreboard panel background. The 300x150 source is split into two 150x150 cells, because a glyph over 256px on either side renders as a missing-glyph box. U+EC30 is the left half, U+EC35 the right; the server draws them with a -1 spacer between so they meet. Each renders 75x75 units at height 75. ascent puts the top just above the text baseline so the panel hangs down from the boss bar. Emit in WHITE: Minecraft multiplies a bitmap glyph by the text colour.",
       "type": "bitmap",
       "file": "minecraft:clubtopia/lasertag/panel.png",
       "ascent": 10,
       "height": 75,
-      "chars": [""]
+      "chars": [
+        "\uec30\uec35"
+      ]
     }
   ]
 }
